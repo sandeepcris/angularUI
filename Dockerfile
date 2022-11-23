@@ -1,5 +1,4 @@
 FROM nginxinc/nginx-unprivileged
-#!/bin/sh
 COPY nginx.conf /etc/nginx/nginx.conf
 ## Remove default nginx index page
 RUN rm -rf /usr/share/nginx/html/*
