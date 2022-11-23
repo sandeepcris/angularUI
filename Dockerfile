@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginxinc/nginx-unprivileged
 #!/bin/sh
 COPY nginx.conf /etc/nginx/nginx.conf
 ## Remove default nginx index page
