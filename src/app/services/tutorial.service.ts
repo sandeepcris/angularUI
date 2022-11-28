@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Tutorial } from '../models/tutorial.model';
 
-const baseUrl = 'http://spring-boot-data-mongodb:8082/api/tutorials';
+const baseUrl = 'http://spring-boot-data-mongodb-uts-test-project.apps.ocp4.cnmp.cris.in/api/tutorials';
 
 @Injectable({
   providedIn: 'root'
